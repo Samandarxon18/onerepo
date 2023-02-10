@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PayAPI</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <section
+      class="bg-pattern-circle bg-pattern-circle--ht bg-primary overflow-x-hidden"
+    >
+      <header class="header relative">
+        <div class="container">
+          <div class="flex items-center justify-between">
+            <img src="images/shared/desktop/logo.svg" alt="logo" />
+            <nav class="flex-grow hide-for-mobile">
+              <ul class="header__nav-list flex items-center">
+                <li>
+                  <a
+                    class="blue-link font-bold opacity-70 hover:opacity-1 transition-all focus:underline"
+                    href="pricing.html"
+                    >Pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="blue-link font-bold opacity-70 hover:opacity-1 transition-all focus:underline"
+                    href="about.html"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="blue-link font-bold opacity-70 hover:opacity-1 transition-all focus:underline"
+                    href="contact.html"
+                    >Contact</a
+                  >
+                </li>
+                <li class="ml-auto">
+                  <a href="#" class="btn btn-primary">Schedule a Demo</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="hide-for-desktop" id="btn-menu">
+              <img src="images/shared/mobile/menu.svg" alt="Mobile menu" />
+            </button>
+          </div>
+        </div>
+
+        <div class="sidenav" id="mysidenav">
+          <nav class="flex flex-col gap-24">
+            <button id="btn-close">
+              <img src="images/shared/mobile/close.svg" alt="close icon" />
+            </button>
+            <div class="flex flex-col items-center gap-3 sidenav__list">
+              <a class="opacity-70 focus:underline" href="pricing.html"
+                >Pricing</a
+              >
+              <a class="opacity-70 focus:underline" href="about.html">About</a>
+              <a class="opacity-70 focus:underline" href="contact.html"
+                >Contact</a
+              >
+              <a class="btn btn-primary self-stretch" href="#"
+                >Schedule a Demo</a
+              >
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <div class="hero relative">
+        <div class="container">
+          <div class="grid lg:grid-col-2 items-center justify-center">
+            <div class="hero__img-wrapper lg:order-2">
+              <img
+                class="hero__img"
+                src="images/home/desktop/illustration-phone-mockup.svg"
+                alt="phone mockup"
+              />
+            </div>
+
+            <header class="hero__header lg:order-1 text-center lg:text-left">
+              <h1 class="heading-1--large">
+                Start building with our APIs for absolutely free.
+              </h1>
+              <form action="#" class="schedule-form hero__form">
+                <input
+                  type="email"
+                  name="schedule-email"
+                  id="email"
+                  placeholder="Enter email address"
+                  class="schedule-form__input font-bold"
+                />
+                <button class="btn btn-primary schedule-form__btn">
+                  Schedule a Demo
+                </button>
+              </form>
+              <div class="inline-flex hero__contact">
+                <p>Have any questions?</p>
+                &NonBreakingSpace;
+                <a
+                  class="blue-link font-bold focus:underline"
+                  href="contact.html"
+                  >Contact Us</a
+                >
+              </div>
+            </header>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="we-work-with overflow-hidden bg-pattern-circle bg-secondary"
+    >
+      <div class="container">
+        <div class="we-work-with__wrapper items-center justify-between">
+          <div
+            class="we-work-with__companies grid md:grid-col-3 grid-col-2 items-center justify-items-center huge:order-2"
+          >
+            <img src="images/shared/desktop/whiteSvg/tesla.svg" alt="Tesla" />
+            <img
+              src="images/shared/desktop/whiteSvg/microsoft.svg"
+              alt="Microsof"
+            />
+            <img
+              src="images/shared/desktop/whiteSvg/hewlett-packard.svg"
+              alt="hewlett-packard"
+            />
+            <img src="images/shared/desktop/whiteSvg/oracle.svg" alt="oracle" />
+            <img src="images/shared/desktop/whiteSvg/google.svg" alt="google" />
+            <img src="images/shared/desktop/whiteSvg/nvidia.svg" alt="nvidia" />
+          </div>
+
+          <article
+            class="we-work-with__article huge:order-1 text-center huge:text-left relative"
+          >
+            <h2 class="heading-2 text-white">Who we work with</h2>
+            <p class="paragraph text-white opacity-70">
+              Today, millions of people around the world have successfully
+              connected their accounts to apps they love using our API. We
+              provide developers with the tools they need to create easy and
+              accessible experiences for their users.
+            </p>
+            <a href="about.html" class="btn btn-secondary btn-secondary--light"
+              >About Us</a
+            >
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="features bg-primary">
+      <div class="container">
+        <div class="features__articles">
+          <div
+            class="grid lg:grid-col-2 items-center justify-items-center lg:justify-items-stretch"
+          >
+            <img
+              class="easy-to-implement-img"
+              src="images/home/desktop/illustration-easy-to-implement.svg"
+              alt="Easy to implement"
+            />
+
+            <article class="article article-one text-center lg:text-left">
+              <h2 class="heading-2 text-mirage-blue">Easy to implement</h2>
+              <p class="paragraph text-light-blue opacity-70">
+                Our API comes with just a few lines of code. You’ll be up and
+                running in no time. We built our documentation page to integrate
+                payments functionality with ease.
+              </p>
+            </article>
+          </div>
+
+          <div
+            class="bg-pattern-circle grid lg:grid-col-2 items-center justify-items-center lg:justify-items-stretch"
+          >
+            <img
+              class="lg:order-2 simple-ui-img"
+              src="images/home/desktop/illustration-simple-ui.svg"
+              alt="simple ui/ux"
+            />
+            <article
+              class="article lg:order-1 article-two text-center lg:text-left"
+            >
+              <h2 class="heading-2 text-mirage-blue">Simple UI & UX</h2>
+              <p class="paragraph text-light-blue opacity-70">
+                Our pre-built form is easy to integrate in your app or website’s
+                checkout flow and designed to optimize conversion.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <div class="grid md:grid-col-3 features__cards">
+          <div class="feature-card text-center grid justify-items-center">
+            <img
+              src="images/home/desktop/icon-personal-finances.svg"
+              alt="personal finance icon"
+            />
+            <div class="feature-card__text">
+              <h3 class="heading-3--small">Personal Finances</h3>
+              <p class="paragraph text-light-blue">
+                Consolidate financial data from multiple sources and categorize
+                transactions up to 2 years of history. Analyze reports to
+                reconcile activities in your account.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card text-center grid justify-items-center">
+            <img
+              src="images/home/desktop/icon-banking-and-coverage.svg"
+              alt="banking coverage icon"
+            />
+            <div class="feature-card__text">
+              <h3 class="heading-3--small">Banking & Coverage</h3>
+              <p class="paragraph text-light-blue">
+                With our platform, you can speed up account onboarding and
+                support ongoing payments for checking, savings, credit card, and
+                brokerage accounts.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card text-center grid justify-items-center">
+            <img
+              src="images/home/desktop/icon-consumer-payments.svg"
+              alt="consumer payments icon"
+            />
+            <div class="feature-card__text">
+              <h3 class="heading-3--small">Consumer Payments</h3>
+              <p class="paragraph text-light-blue">
+                It’s easier to set up secure bank payments with us through a
+                flow designed with the user experience in mind. Customers could
+                instantly authenticate their account.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ready-to-start">
+          <h2 class="heading-2 text-center">Ready to start?</h2>
+          <form action="#" class="schedule-form">
+            <input
+              type="email"
+              name="schedule-email"
+              id="email"
+              placeholder="Enter email address"
+              class="schedule-form__input font-bold"
+            />
+            <button class="btn btn-primary schedule-form__btn">
+              Schedule a Demo
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-secondary bg-pattern-circle overflow-hidden">
+      <div class="container">
+        <div
+          class="flex items-center justify-between md:flex-row flex-col relative"
+        >
+          <img src="images/shared/desktop/Group 23.svg" alt="logo" />
+          <nav class="flex-grow">
+            <ul class="footer__nav-list flex items-center md:flex-row flex-col">
+              <li>Pricing</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+
+          <ul class="flex items-center footer__socials">
+            <img src="images/Path.svg" alt="facebook" />
+            <img src="images/Path (1).svg" alt="facebook" />
+            <img src="images/Shape.svg" alt="facebook" />
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
